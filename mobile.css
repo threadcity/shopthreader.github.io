@@ -1,0 +1,99 @@
+@media (max-width: 600px){
+    
+    html{
+        font-size: 9.5px;
+    }
+    nav{
+        align-content: center;
+        background-color: #FFFFFF;
+        margin: 0;
+        padding: 2rem 2.4rem;
+        box-shadow: -1px 0px 15px #e6e6e6;
+        z-index: 999;
+    }
+    .logo img{
+        /* width: 84.432px;
+        height: 20px; */
+        width: 118.2px;
+        height: 28px;
+
+    }
+    .social{
+        display: flex;
+        position: absolute;
+        right: 2.4rem;
+        gap: 2rem;
+    }
+    .main-container{
+        margin-top: 0.5rem;
+    }
+    .small-text{
+        font-size: 1.2rem;
+    }
+    .small-texts{
+        gap: 0;
+        letter-spacing: 0.1rem;
+    }
+    .main-text{
+        /* display: block; */
+        flex-direction: column;
+        gap: 0;
+        font-size: 8rem;
+    }
+    .no-rules{
+        justify-content: flex-start;
+    }
+    .no-boundries{
+        justify-content: flex-end;
+    }
+    .only{
+        margin: 0;
+        /* justify-content:flex-start;
+        letter-spacing: 1.5rem; */
+    }
+    
+    /* .style{
+        margin: 0;
+        justify-content:flex-start;  
+    } */
+
+    .main-container .p{
+        font-size: 1.6rem;
+        margin: 2rem -2rem 3rem -2rem ;
+        line-height: 2.4rem;
+    }
+    
+    .input{
+        /* flex-direction: column; */
+        flex-direction: column;
+    }
+    #email{
+        width:auto;
+        border-radius: 0.8rem;
+        border: solid 1px #e6e6e6;
+        font-size: 1.6rem;
+        margin: 0 -2rem;
+        padding: 2rem;
+    }
+    button{
+        width: 100%;
+        margin-top: 2.4rem;
+        border-radius: 0.8rem;
+        font-size: 1.4rem;
+        
+    
+    }
+    .btn{
+        margin-top: 2.4rem;
+        border-radius: 0.8rem;
+        font-size: 1.4rem;
+        margin: 2rem -2rem;
+        padding: 2rem;
+    }
+
+    footer{
+        font-size: 1.2rem;
+    }
+
+    
+}

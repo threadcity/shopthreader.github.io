@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-image: url('Mask group.svg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* width: 100vw; */
+    background-size: cover;
+    /* background-position: center;
+    object-fit: cover; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width: 100vw;
+    /* box-shadow: -1 30 20px #333; */
+    /* background-color: #ffffff; */
+    padding: 5rem;
+
+}
+
+.social{
+    display: flex;
+    /* position: absolute; */
+    gap: 3rem;
+}
+
+.linkedin img:hover{
+    box-shadow: 0px 0px 15px #A7DCD7;
+    border-radius: 0.5rem;
+  }
+.instagram img:hover{
+    box-shadow: 0px 0px 15px #A7DCD7;
+    border-radius: 0.5rem;
+  }
+.twitter img:hover{
+    box-shadow: 0px 0px 15px #A7DCD7;
+  }
+
+.main-container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100rem;
+    
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.small-texts{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    font-family: 'SF Compact Display';
+    font-size: 1.8rem;
+    font-weight: 100;
+    letter-spacing: 0.15rem;
+    text-decoration-line: line-through;
+    gap: 6rem;
+    color: #6D6D6D;
+}
+.left-copy .small-texts{text-align: right;}
+
+.right-copy .small-texts{text-align: left;}
+
+.left-copy{ margin-right: 4rem;}
+
+.right-copy{margin-left: 4rem;}
+
+.no-rules{display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+width: 100%;}
+
+.no-boundries{display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+width: 100%;}
+
+.main-text{
+    display: flex;
+    width:100%;
+    font-size: 12rem;
+    letter-spacing: 1rem;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 700;
+    gap: 6rem;
+    justify-content: space-between;
+
+}
+.only{
+    /* width:50%; */
+    color: #A6DBD7;
+    /* display: flex; */
+    /* align-items: flex-end; */
+    /* justify-content: flex-end; */
+    margin-right: -3rem;
+
+    /* TRIAL */
+    display: flex;
+    width: 100%;
+    /* TRIAL END */
+    
+}
+.only div{
+    flex-grow: 1;
+}
+.style div{
+    flex-grow: 1;
+}
+.style{
+    /* width:50%; */
+    color: #4EB8AF;
+    /* display: flex;
+    align-items: flex-end; */
+    /* justify-content: flex-end; */
+
+    /* TRIAL */
+    display: flex;
+    /* TRIAL END */
+}
+.main-container .p{
+    margin: 3.2rem;
+    font-family: 'SF Compact Display';
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #6D6D6D;
+    line-height: 29.07px;
+
+}
+
+.input{
+    
+    display: flex;
+}
+
+#email{
+    font-family: 'SF Compact Display';
+    width: 100%;
+    padding:1.5rem;
+    /* height: 5rem; */
+    border-radius: 0.8rem 0 0 0.8rem;
+    border-style: solid;
+    border-color: #e6e6e6;
+    padding-left: 1.6rem;
+    /* box-sizing: border-box; */
+    box-shadow: -1px 0px 15px #e6e6e6;;
+    color: #0d1b2a;
+    border-right: 0px;
+}
+#email::placeholder{
+    opacity: 30%;
+}
+#email:focus{
+    /* letter-spacing: 0.1rem; */
+    font-weight: 400;
+    box-shadow: -1px 0px 15px #A7DCD7;
+    color: #0d1b2a;
+    caret-color: #0d1b2a;
+    border-color: #A7DCD7;
+}
+#email:enabled{
+    outline: #A7DCD7;
+    color: #0d1b2a;
+}
+  
+input::selection{
+    background: #4EB8AF;
+    color: #FFFFFF
+}
+
+.btn{
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 1.4rem;
+    background: #0D1B2A;
+    font-weight: 700;
+    color: #ffff;
+    flex-shrink: 0;
+    border-radius: 0 0.8rem 0.8rem 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+/* button{
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    background: #0D1B2A;
+    padding:1.5rem;
+    width: 20%;
+    margin-left: 0;
+    border-radius: 0 0.8rem 0.8rem 0;
+    color: #ffff;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+button:hover{
+    cursor: pointer;
+} */
+/* a{
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    background: #0D1B2A;
+    height: 5rem;
+    width: 11rem;
+    margin-left: 0;
+    border-radius: 0 0.8rem 0.8rem 0;
+    color: #ffff;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    cursor: pointer;
+} */
+
+footer{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3rem;
+    padding: 0px;
+    white-space: nowrap;
+    font-family: 'SF Compact Display';
+    font-size: 1.6rem;
+    letter-spacing: 0.3rem;
+     color: #A6DBD7;
+    font-weight: 100;
+  }
+.special{
+    color: #4EB8AF;
+    font-weight: 500;
+    
+}
+
+footer .overflow-text {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    /* font-size: 1.2rem; */
+}
